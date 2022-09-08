@@ -1,0 +1,13 @@
+[package]
+name = "envs"
+version = "0.1.1"
+edition = "2021"
+description = "print envs"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+path = "main.rs"
+name = "envs"
+
+[dependencies]
